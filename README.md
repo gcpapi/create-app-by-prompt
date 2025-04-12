@@ -4,7 +4,12 @@ A powerful website generator that uses Gemini API to create custom websites base
 
 ## Demo
 
-[Watch Demo Video](assets/ai-app-video%20(1).3gp)
+https://github.com/gcpapi/create-app-by-prompt/assets/ai-app-video%20(1).3gp
+
+<video width="100%" controls>
+  <source src="assets/ai-app-video%20(1).3gp" type="video/3gpp">
+  Your browser does not support the video tag.
+</video>
 
 ## Features
 
