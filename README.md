@@ -4,13 +4,7 @@ A powerful website generator that uses Gemini API to create custom websites base
 
 ## Demo
 
-<iframe 
-  width="100%" 
-  height="480" 
-  src="https://github.com/gcpapi/create-app-by-prompt/blob/main/assets/ai-app-video.3gp?raw=true" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
+[![Watch the demo video](assets/images/video-thumbnail.png)](https://github.com/gcpapi/create-app-by-prompt/blob/main/assets/ai-app-video.3gp?raw=true)
 
 ## Features
 
