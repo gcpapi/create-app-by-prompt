@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Backup Fun Website - My Backup Fun Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="portfolio-template">
+    
+        <nav class="navbar">
+            <div class="nav-brand">My Backup Fun Website</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    
+
+    <main class="main-content">
+        <header id="home" class="hero">
+            <div class="hero-content">
+                <h1>My Backup Fun Website</h1>
+                <p class="hero-text">Even when the AI fails, the fun prevails!</p>
+            </div>
+        </header>
+
+        
+        <section id="features" class="section">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="section-content">
+                    
+                </div>
+                
+            </div>
+        </section>
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="media-tabs">
+                    <button class="tab active" onclick="showTab('images')">Images</button>
+                    <button class="tab" onclick="showTab('videos')">Videos</button>
+                </div>
+                <div id="images" class="media-grid active">
+                    
+                        <div class="media-card" onclick="openLightbox('https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}')">
+                            <img src="https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}" alt="Fallback Image 1">
+                            <div class="media-info">
+                                <h3>Fallback Image 1</h3>
+                                <p>A quirky fallback image</p>
+                            </div>
+                        </div>
+                    
+                        <div class="media-card" onclick="openLightbox('https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}')">
+                            <img src="https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}" alt="Fallback Image 2">
+                            <div class="media-info">
+                                <h3>Fallback Image 2</h3>
+                                <p>A quirky fallback image</p>
+                            </div>
+                        </div>
+                    
+                        <div class="media-card" onclick="openLightbox('https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}')">
+                            <img src="https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}" alt="Fallback Image 3">
+                            <div class="media-info">
+                                <h3>Fallback Image 3</h3>
+                                <p>A quirky fallback image</p>
+                            </div>
+                        </div>
+                    
+                        <div class="media-card" onclick="openLightbox('https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}')">
+                            <img src="https://source.unsplash.com/800x600/?<span class="math-inline">{encodeURIComponent(prompt)}&error=</span>{i}" alt="Fallback Image 4">
+                            <div class="media-info">
+                                <h3>Fallback Image 4</h3>
+                                <p>A quirky fallback image</p>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div id="videos" class="media-grid">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" src="" alt="Lightbox Image">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
